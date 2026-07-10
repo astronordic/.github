@@ -1,0 +1,31 @@
+# Drop into .github/workflows/ci.yml for a Swift/macOS (XcodeGen) app.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate Xcode project
+        run: xcodegen generate
+
+      - name: Build & test
+        run: |
+          xcodebuild test \
+            -project Cleanfy.xcodeproj \
+            -scheme Cleanfy \
+            -destination 'platform=macOS' \
+            CODE_SIGNING_ALLOWED=NO | xcbeautify || xcodebuild test \
+            -project Cleanfy.xcodeproj \
+            -scheme Cleanfy \
+            -destination 'platform=macOS' \
+            CODE_SIGNING_ALLOWED=NO
