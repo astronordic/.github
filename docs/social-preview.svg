@@ -1,0 +1,41 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Nordic Standard — the engineering conventions every astronordic repository follows">
+  <title>The Nordic Standard</title>
+  <defs>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientTransform="translate(160 100) rotate(40) scale(520)">
+      <stop stop-color="#E8E8EC" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#E8E8EC" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientTransform="translate(1140 540) rotate(-140) scale(560)">
+      <stop stop-color="#8A8F98" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#8A8F98" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowTop" cx="0" cy="0" r="1" gradientTransform="translate(640 -60) rotate(100) scale(460)">
+      <stop stop-color="#B9C0CE" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#B9C0CE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wordmark" x1="640" y1="255" x2="640" y2="325" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#B9C0CE"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.04" fill="none"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="52"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="#0A0A0C"/>
+  <g filter="url(#soft)">
+    <rect width="1280" height="640" fill="url(#glowLeft)"/>
+    <rect width="1280" height="640" fill="url(#glowRight)"/>
+    <rect width="1280" height="640" fill="url(#glowTop)"/>
+  </g>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+
+  <!-- wordmark -->
+  <text x="640" y="320" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="80" font-weight="800" letter-spacing="-1.6" fill="url(#wordmark)">The Nordic Standard</text>
+
+  <!-- eyebrow -->
+  <text x="640" y="382" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', 'Cascadia Code', 'Segoe UI Mono', Consolas, monospace" font-size="22" font-weight="500" letter-spacing="5" fill="#8A8F98">ENGINEERING CONVENTIONS &#183; @ASTRONORDIC</text>
+</svg>
