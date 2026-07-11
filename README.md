@@ -27,14 +27,6 @@ is followed everywhere. Individual repos may override a file when they genuinely
 | [`.github/PULL_REQUEST_TEMPLATE.md`](./.github/PULL_REQUEST_TEMPLATE.md) | The PR checklist |
 | [`templates/`](./templates) | Drop-in files: `LICENSE`, `.editorconfig`, CI workflows, Dependabot |
 
-## The projects that follow it
-
-| Project | What it is | Stack |
-|---------|-----------|-------|
-| [**Cleanfy**](https://github.com/astronordic/cleanfy) | Native macOS disk cleaner and live memory monitor | Swift · SwiftUI |
-| **Trustly** (private) | PIX escrow platform for safe middleman deals | TypeScript · Express · Next.js |
-| **FinanceApp** (private) | Personal and business finance SaaS for the Brazilian market | TypeScript · Next.js · Supabase |
-
 ---
 
 <div align="center"><sub>make it work → make it right → make it beautiful.</sub></div>
