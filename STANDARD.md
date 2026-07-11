@@ -30,6 +30,11 @@ Every repository has, at minimum:
 repository. A repo only defines its own when it genuinely needs to. `dependabot.yml` is the
 exception — it is always per-repo.
 
+New repositories start from [`nordic-template`](https://github.com/astronordic/nordic-template)
+(private) — GitHub's **Use this template**, or
+`gh repo create <name> --template astronordic/nordic-template` — which ships this skeleton plus
+the banner, social preview, and README placeholders and a `TEMPLATE.md` setup checklist.
+
 ## 3. README anatomy
 
 English, minimalist, text-first — and written for **two audiences**. The top of the README speaks
