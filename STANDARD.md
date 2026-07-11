@@ -179,13 +179,6 @@ Repos without CI omit the badge `<p>` entirely.
   `chrome --headless --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --window-size=1280,640 --screenshot=<abs>.png file://<abs>.svg`
 - **Upload is manual** — repository *Settings → Social preview*. GitHub has no API for it.
 
-### Profile cards — `docs/card-<project>.svg` (1280 × 220, profile repo only)
-
-The profile README showcases projects with cards that follow the same grammar at card scale:
-`rx=16` panel, same solid background, grid, and hairline; project name 48px weight 700 at x ≈ 82
-(same wordmark gradient); one-line description 22px `#9AA0AB`; stack line monospace 16px
-UPPERCASE letter-spacing 3px in the project accent.
-
 ### Project accents
 
 The background is `#0A0A0C` everywhere. Each project owns **one** accent color:
