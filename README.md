@@ -37,4 +37,4 @@ is followed everywhere. Individual repos may override a file when they genuinely
 
 ---
 
-<sub><em>make it work → make it right → make it beautiful.</em></sub>
+<div align="center"><sub>make it work → make it right → make it beautiful.</sub></div>
