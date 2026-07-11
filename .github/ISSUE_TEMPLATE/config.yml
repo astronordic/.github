@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: "🔒 Security vulnerability · Vulnerabilidade de segurança"
+  - name: "Security vulnerability"
     url: https://github.com/astronordic/.github/blob/main/SECURITY.md
-    about: "Please report security issues privately, not as a public issue. · Reporte problemas de segurança em privado."
+    about: "Please report security issues privately, not as a public issue."

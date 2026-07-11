@@ -1,25 +1,25 @@
-name: "✨ Feature request · Sugerir melhoria"
-description: "Suggest an idea or improvement · Sugira uma ideia ou melhoria"
+name: "Feature request"
+description: "Suggest an idea or improvement"
 labels: ["enhancement"]
 body:
   - type: textarea
     id: problem
     attributes:
-      label: "The problem · O problema"
-      description: "What are you trying to do? · O que você está tentando fazer?"
+      label: "The problem"
+      description: "What are you trying to do?"
     validations:
       required: true
   - type: textarea
     id: solution
     attributes:
-      label: "Proposed solution · Solução proposta"
-      description: "What would you like to happen? · O que você gostaria que acontecesse?"
+      label: "Proposed solution"
+      description: "What would you like to happen?"
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
-      label: "Alternatives · Alternativas"
-      description: "Other approaches you considered. · Outras abordagens que você considerou."
+      label: "Alternatives"
+      description: "Other approaches you considered."
     validations:
       required: false

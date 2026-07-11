@@ -1,21 +1,21 @@
-name: "🐞 Bug report · Relatar bug"
-description: "Report something that isn't working · Relate algo que não está funcionando"
+name: "Bug report"
+description: "Report something that isn't working"
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
-      value: "Thanks for the report! · Obrigado pelo relato! Please fill in what you can · Preencha o que puder."
+      value: "Thanks for the report! Please fill in what you can."
   - type: textarea
     id: what-happened
     attributes:
-      label: "What happened? · O que aconteceu?"
-      description: "Describe the bug and what you expected instead. · Descreva o bug e o que você esperava."
+      label: "What happened?"
+      description: "Describe the bug and what you expected instead."
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: "Steps to reproduce · Passos para reproduzir"
+      label: "Steps to reproduce"
       placeholder: |
         1. ...
         2. ...
@@ -25,14 +25,14 @@ body:
   - type: input
     id: version
     attributes:
-      label: "Version & environment · Versão e ambiente"
+      label: "Version & environment"
       placeholder: "e.g. v0.1.0 · macOS 15.1 / Node 20.9"
     validations:
       required: false
   - type: textarea
     id: extra
     attributes:
-      label: "Logs / screenshots · Logs / capturas"
-      description: "Anything else that helps. · Qualquer coisa que ajude."
+      label: "Logs / screenshots"
+      description: "Anything else that helps."
     validations:
       required: false

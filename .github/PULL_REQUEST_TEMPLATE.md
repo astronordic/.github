@@ -1,24 +1,24 @@
-<!-- 🇬🇧 English + 🇧🇷 Português — keep it short and honest. -->
+<!-- Keep it short and honest. -->
 
-## What & why · O quê & por quê
+## What & why
 
-<!-- What does this PR change, and why? / O que este PR muda, e por quê? -->
+<!-- What does this PR change, and why? -->
 
-## Type · Tipo
+## Type
 
-- [ ] `feat` — new feature / nova funcionalidade
-- [ ] `fix` — bug fix / correção
-- [ ] `docs` — documentation / documentação
+- [ ] `feat` — new feature
+- [ ] `fix` — bug fix
+- [ ] `docs` — documentation
 - [ ] `refactor` / `perf` / `style`
 - [ ] `test` / `ci` / `chore` / `build`
 
 ## Checklist
 
-- [ ] Follows [Conventional Commits](https://www.conventionalcommits.org) · Segue Conventional Commits
-- [ ] Self-reviewed the diff · Revisei o próprio diff
-- [ ] CI is green (type-check · lint · test/build) · CI está verde
-- [ ] Docs updated if needed · Docs atualizados se necessário
+- [ ] Follows [Conventional Commits](https://www.conventionalcommits.org)
+- [ ] Self-reviewed the diff
+- [ ] CI is green (type-check · lint · test/build)
+- [ ] Docs updated if needed
 
-## Related · Relacionado
+## Related
 
 <!-- Closes #… / Relates to #… -->

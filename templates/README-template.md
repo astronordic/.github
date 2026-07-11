@@ -1,22 +1,11 @@
-<div align="center">
-
-<!-- <img src="docs/banner.png" alt="Project" width="640" /> -->
+<!-- Optional banner: <p align="center"><img src="docs/banner.svg" alt="Project" width="100%"></p> -->
 
 # Project Name
 
-**One-line tagline — what it is and who it's for.**
+One-line tagline — what it is and who it's for.
 
-<sub>🇬🇧 English · 🇧🇷 <a href="./README.pt-BR.md">Português</a></sub>
-
-<!-- badges: license · CI · stack · version -->
-<p>
-  <img alt="License" src="https://img.shields.io/badge/license-proprietary-informational?style=for-the-badge" />
-  <!-- <img alt="CI" src="https://github.com/astronordic/REPO/actions/workflows/ci.yml/badge.svg" /> -->
-</p>
-
-</div>
-
----
+<!-- The only badge is the live CI status: -->
+<!-- [![CI](https://github.com/astronordic/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/astronordic/REPO/actions/workflows/ci.yml) -->
 
 ## About
 
@@ -28,11 +17,11 @@
 
 ## Screenshots
 
-<!-- images or a short clip -->
+<!-- images or a short clip, when the project is visual -->
 
 ## Tech stack
 
-<!-- languages · frameworks · infra -->
+<!-- a plain-text line: TypeScript · Node.js · … -->
 
 ## Architecture
 
