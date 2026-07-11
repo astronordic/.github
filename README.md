@@ -1,6 +1,12 @@
-# The Nordic Standard
+<div align="center">
 
-The shared engineering standard for every [`@astronordic`](https://github.com/astronordic) repository.
+<img src="docs/banner.svg" alt="The Nordic Standard — consistency is the feature" width="100%" />
+
+<sub>Default community health files · single source of truth for every @astronordic repo</sub>
+
+</div>
+
+---
 
 This is a **special repository**. On GitHub, a public repository named `.github` provides
 **default community health files** — `CONTRIBUTING`, `CODE_OF_CONDUCT`, `SECURITY`, issue and
